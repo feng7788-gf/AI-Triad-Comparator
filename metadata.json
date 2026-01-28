@@ -1,0 +1,5 @@
+{
+  "name": "AI Triad Comparator",
+  "description": "A powerful multi-model comparison tool that queries GPT, Gemini, and DeepSeek simultaneously to compare responses side-by-side in a unified interface.",
+  "requestFramePermissions": []
+}

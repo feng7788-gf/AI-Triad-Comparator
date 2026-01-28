@@ -1,0 +1,31 @@
+{
+  "name": "multi-ai-chat",
+  "version": "1.0.0",
+  "description": "AI Triad Comparator with Express Backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"vite\" \"node server.js\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "@google/genai": "^1.35.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently": "^8.2.2",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
